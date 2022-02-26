@@ -12,7 +12,7 @@
 }
 .navbar{
     display: flex;
-    background: rgba(0, 0, 0, 0.7) url(lala.jpg);
+    background: black;
     justify-content: center;
     position: sticky;
     top: 0%;
@@ -40,6 +40,7 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
     transition: 0.4s;
 
 }
@@ -151,7 +152,7 @@
     justify-content: center;
     align-items: center;
   
-    margin: 20px;
+    margin: 2px;
     height: 70%;
     
     display: flex;
@@ -174,7 +175,7 @@
     font-size: xx-large;
     padding-left: 7%;
     padding-top: 4%;
-    border-top: 5PX SOLID rgb(38, 54, 204);
+    border-top: 15PX SOLID black;
     
 }
 .headp{
@@ -208,7 +209,7 @@
 .head2{
     display: flex;
     padding-bottom: 5%;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid black;
 }
 .contact{
     justify-content: center;
