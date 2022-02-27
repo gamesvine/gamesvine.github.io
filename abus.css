@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.tit{
+    
+    height: 100px;
+    border-bottom: 4px solid white;
+    background: rgba(0,0,0,0.7) url(banner.jpg);
+    background-blend-mode: darken;
+
+    
+}
+.main{
+    
+    background: rgba(0, 0, 0, 0.7) url(gta.jpg) ;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+.ha1{
+    padding-left: 42%;
+    padding-top: 2.5%;
+    font-weight: 1500;
+    font-size: xx-large;
+    color: white;
+}
+.pp{
+    font-style: normal;
+    font-size: larger;
+    color: rgb(216, 230, 21);
+    padding-left: 4%;
+    padding-top: 6%;
+}
+.cont{
+   
+    height: 80%;
+    display: flex;
+}
+.imga{
+    height: 60%;
+    width: 42%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.btns{
+    
+    height: 120px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.btn1{
+    height: 35px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: tomato;
+    border-radius: 7px;
+}
+.btns :hover{
+    background: lightseagreen;
+
+}
+
+@media only screen and (max-width: 726px){
+
+.ha1{
+    font-size: large;
+    padding-left: 30%;
+    padding-top: 6.5%;
+
+}
+.tit{
+    height: 50px;
+}
+.cont{
+    flex-direction: column-reverse;
+    
+    height: fit-content;
+}
+.pp{
+    font-size: medium;
+}
+.main{
+    height: 1000px;
+}
+.imga{
+    height: 140px;
+    width: 90%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.btns{
+    margin-top: 30%;
+}
+.btn1{
+    margin-bottom: 20px;
+}
+    
+
+
+
+}

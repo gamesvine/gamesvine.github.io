@@ -3,6 +3,9 @@
     margin: 0;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .main{
     background: rgba(0, 0, 0, 0.7) url(BG.jpg) ;
     background-blend-mode: darken;
@@ -262,6 +265,9 @@
 }
 
 @media only screen and (max-width: 726px){
+    body{
+        
+    }
     .nav-list{
         flex-direction: column;
         
@@ -333,30 +339,54 @@
         position: absolute;
         left: 00%;
         top: 173%;
+        visibility: hidden;
+       
     }
     .head2p{
         font-size: large;
+        font-style: italic;
         width: 250px;
-        position: absolute;
-        left: -13%;
-        top: 180%;
+        padding-bottom: 2%;
+        height: fit-content;
+        background-color: aliceblue;
+
     }
     .secright{
-        height: 1000px;
+        height: 500px;
     }
     .veri{
-        position: absolute;
-        bottom: -130%;
-        right: 40%;
+        
         height: 140px;
         width: 150px;
+    
     }
     .head2{
         border: none;
+        padding-bottom: 2%;
+        background-color: aqua;
     }
     .yt{
         height: 60px;
         width: 70px;
     }
+
+.secright .head2{
+    visibility: hidden;
+}
+.button{
+    margin-top: 15%;
+    width: 120px;
+    border: 3px solid lightseagreen;
+}
+.contact{
+   
+    width: 300px;
+}
+.conti{
+    margin-left: 15%;
+  
+    width: fit-content;
+}
+
 
 }    
