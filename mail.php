@@ -1,16 +1,16 @@
 <?php
 //get data from form  
 $name = $_POST['name'];
-$game_requested= $_POST['game'];
-$data= $_POST['GB'];
+$email= $_POST['email'];
+$message= $_POST['message'];
 $to = "rehanbro350@gmail.com";
-$subject = "Mail From gamesvine";
-$txt ="Name = ". $name . "\r\n Message =" . $game_requested;
-$headers = "From: noreply@gamesvine.com" . "\r\n" .
+$subject = "Mail From website";
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
-header("form.html");
+header("Location:index.html");
 ?>
