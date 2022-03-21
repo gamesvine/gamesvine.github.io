@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: rgba(0,0,0,0.7) url(../gamesvine/cbg.jpg);
+    background-size: cover;
+}
+.container{
+    height: 500px;
+    width: 30%;
+    margin-top: 5%;
+   
+}
+.ha1{
+    color: rgb(50, 197, 207);
+    margin-left: 20px;
+    font-size: 45px;
+}
+.fr{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+.inp1{
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    border-bottom: 3px solid cadetblue;
+    background: none;
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+}
+.inp1:hover{
+    border-bottom: 3px solid tomato;
+}
+.btn1{
+    height: 40px;
+    width: 170px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.btn1:hover{
+    background-color: aquamarine;
+
+
+}
+.hpage{
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.hpage:hover{
+    background-color: aquamarine;
+
+
+}
+
+@media only screen and (max-width: 726px){
+
+.ha1{
+    width: 500px;
+    height: 200px;
+    font-size: 80px;
+}
+.inp1{
+    width: 350%;
+    margin-top: 60%;
+    font-size: x-large;
+}
+.fr{
+    height: 600px;
+}
+.btn1{
+    margin-top: 70%;
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+}
+
+
+
+
+}
